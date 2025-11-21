@@ -1,0 +1,103 @@
+
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/YtYVvFn/1.png",
+    "title": "Mastering HTML & CSS: Build Your First Web Page",
+    "author img": "https://i.ibb.co/Z6b4P8M/boy1.jpg",
+    "author": "Rafi Khan",
+    "posted date": "July 12, 2023",
+    "reading time": 5,
+    "hashtags": ["html", "css", "frontend"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/6N2dgnZ/2.png",
+    "title": "JavaScript Objects for Absolute Beginners: A Fun Introduction",
+    "author img": "https://1.ibb.co/7rFS3x5/girl1.jpg",
+    "author": "Sajal Ali",
+    "posted date": "August 28, 2023",
+    "reading time": 4,
+    "hashtags": ["javascript", "coding", "dev"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/4VR1RMy/3.png",
+    "title": "React Components Explained Simply with Real Examples",
+    "author img": "https://i.ibb.co/0Dmq5kb/boy2.jpg",
+    "author": "Tanvir Rahman",
+    "posted date": "September 10, 2023",
+    "reading time": 6,
+    "hashtags": ["react", "frontend", "javascript"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/tcbP4kd/4.png",
+    "title": "The Ultimate Guide to Node.js for Beginners",
+    "author img": "https://i.ibb.co/ZT3S7FR/girl2.jpg",
+    "author": "Mehzabin Chowdhury",
+    "posted date": "October 3, 2023",
+    "reading time": 7,
+    "hashtags": ["nodejs", "backend", "javascript"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/pQ9WbJx/5.png",
+    "title": "Understanding APIs: How the Web Talks to Itself",
+    "author img": "https://i.ibb.co/86Wb5zn/boy3.jpg",
+    "author": "Imran Hossain",
+    "posted date": "November 1, 2023",
+    "reading time": 5,
+    "hashtags": ["api", "webdev", "json"]
+  },
+  {
+    "id": 6,
+    "cover": "https://i.ibb.co/FDsPLmq/6.png",
+    "title": "CSS Flexbox vs Grid: When to Use Which",
+    "author img": "https://i.ibb.co/pwT1VxX/girl3.jpg",
+    "author": "Tania Akter",
+    "posted date": "December 15, 2023",
+    "reading time": 4,
+    "hashtags": ["css", "layout", "frontend"]
+  },
+  {
+    "id": 7,
+    "cover": "https://i.ibb.co/pbVjLpF/7.png",
+    "title": "Exploring Next.js: Building Fast and Scalable Web Apps",
+    "author img": "https://i.ibb.co/QnWRKZT/boy4.jpg",
+    "author": "Asif Mahmud",
+    "posted date": "January 20, 2024",
+    "reading time": 8,
+    "hashtags": ["nextjs", "react", "ssr"]
+  },
+  {
+    "id": 8,
+    "cover": "https://i.ibb.co/jk1M1V4/8.png",
+    "title": "Master Git & GitHub: From Zero to Hero",
+    "author img": "https://i.ibb.co/7QxyGJq/girl4.jpg",
+    "author": "Farzana Noor",
+    "posted date": "February 10, 2024",
+    "reading time": 5,
+    "hashtags": ["git", "github", "versioncontrol"]
+  },
+  {
+    "id": 9,
+    "cover": "https://i.ibb.co/0jDpZT9/9.png",
+    "title": "The Power of TypeScript: Write Safer JavaScript",
+    "author img": "https://i.ibb.co/k20dQSy/boy5.jpg",
+    "author": "Naeem Uddin",
+    "posted date": "March 8, 2024",
+    "reading time": 6,
+    "hashtags": ["typescript", "javascript", "dev"]
+  },
+  {
+    "id": 10,
+    "cover": "https://i.ibb.co/0JffW6v/10.png",
+    "title": "How to Deploy Your Website Like a Pro (Vercel & Netlify)",
+    "author img": "https://i.ibb.co/9Ng4gJq/girl5.jpg",
+    "author": "Ruma Begum",
+    "posted date": "April 22, 2024",
+    "reading time": 5,
+    "hashtags": ["deployment", "vercel", "netlify"]
+  }
+]
