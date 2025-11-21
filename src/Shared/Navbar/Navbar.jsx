@@ -14,13 +14,15 @@ const navItems = [
 
 const NavItems = ({ handleToggleMenu }) => {
   return (
-    <ul className="flex flex-col md:flex-row items-center md:space-x-8 gap-8">
+    <ul className="flex flex-col md:flex-row items-center md:space-x-4 gap-8 text-black hover:text-red-600">
       {navItems.map((item, index) => (
         <li key={index} onClick={handleToggleMenu}>
           <NavLink
             to={item.path}
             className={({ isActive }) =>
-              isActive ? "text-[#E58411] font-bold" : "hover:text-[#E58411]"
+              isActive
+                ? "text-[#E58411] hover:text-black font-bold"
+                : "hover:text-[#E58411] text-black"
             }
           >
             {item.label}
@@ -33,40 +35,22 @@ const NavItems = ({ handleToggleMenu }) => {
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   //-------Handle----Toggle----Button-------
   const handleToggleMenu = () => {
     setIsMenuOpen((prevState) => !prevState);
   };
 
-  //-------Navbar-Change-state-----And-Apply-Bg-Color-------
-  useState(() => {
-    const handleSchroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", handleSchroll);
-    return () => {
-      window.addEventListener("scroll", handleSchroll);
-    };
-  }, []);
-
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out  ${
-        isScrolled
-          ? "bg-white shadow-2xl text-black"
-          : "bg-transparent text-white"
-      }`}
+      className={
+        "fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out"
+      }
     >
-      <nav className="max-w-screen-2xl container m-auto flex gap-5 items-center justify-between py-6 px-4">
+      <nav className="max-w-screen-2xl container m-auto flex gap-10 items-center justify-between md:justify-start lg:justify-start py-3 px-4">
         {/*-----------Logo-----------------*/}
-        <Link to="/" className="w-[100px]">
-          <img src="https://i.ibb.co.com/wF9kH70F/logo-2.png"  />
+        <Link to="/" className="w-[80px]">
+          <img src="https://i.ibb.co.com/wF9kH70F/logo-2.png" />
         </Link>
 
         {/*---------------HamburgerMenu------------*/}
@@ -77,7 +61,7 @@ const Navbar = () => {
         </div>
 
         {/*-----------Desk-----Top----MenuItems-----------------*/}
-        <div className="hidden md:flex">
+        <div className="hidden md:flex text-black hover:text-black">
           <NavItems />
         </div>
 
