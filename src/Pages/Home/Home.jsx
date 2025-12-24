@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "./HomeSection/HeroSection";
+import ExploreRecentOpportunities from "./HomeSection/ExploreRecentOpportunities";
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
 
 
       <HeroSection />
+      <ExploreRecentOpportunities />
     </div>
   );
 };

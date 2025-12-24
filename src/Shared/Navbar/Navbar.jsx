@@ -44,10 +44,10 @@ const Navbar = () => {
   return (
     <header
       className={
-        "fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out"
+        "fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out bg-white"
       }
     >
-      <nav className="max-w-screen-2xl container m-auto flex gap-10 items-center justify-between md:justify-start lg:justify-start py-3 px-4">
+      <nav className="max-w-screen-xl container m-auto flex gap-10 items-center justify-between md:justify-start lg:justify-start py-3 px-4">
         {/*-----------Logo-----------------*/}
         <Link to="/" className="w-[80px]">
           <img src="https://i.ibb.co.com/wF9kH70F/logo-2.png" />
