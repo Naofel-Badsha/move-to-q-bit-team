@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "./HomeSection/HeroSection";
 import ExploreRecentOpportunities from "./HomeSection/ExploreRecentOpportunities";
 import FortifyYourFinancialHorizon from "./HomeSection/FortifyYourFinancialHorizon";
+import SmartInvestmentSolutions from "./HomeSection/SmartInvestmentSolutions";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <HeroSection />
       <ExploreRecentOpportunities />
       <FortifyYourFinancialHorizon />
+      <SmartInvestmentSolutions />
 
     </div>
   );
